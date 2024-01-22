@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D3C2B;
+}
+
+.header {
+    position: absolute;
+    width: 22rem;
+    height: 5.25rem;
+    top: 5.62rem;
+    left: 5.62rem;
+}
+
+.header__image {
+    width: 6.125rem;
+    height: 4.9375rem;
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    background: url(./assets/imgs/imgheader.png);
+}
+
+.header__tittle {
+    position: absolute;
+    width: 12.1625rem;
+    height: 2.25rem;
+    right: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__tittleImpound {
+    color: #05E1FF;
+    width: 12.1625rem;
+    height: 2.25rem;
+    font-family: Inter;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.vehicle__information {
+    position: absolute;
+    left: 5.62rem;
+    top: 16.25rem;
+    width: 22.3125rem;
+    height: 20.8125rem;
+    border-radius: 0.3125rem;
+    border: linear-gradient(rgba(5, 225, 255, 1), rgba(5, 225, 255, 0));
+    border: 1px solid #05E1FF;
+    background: rgba(0, 0, 0, 0.40);
+
+}
+
+.vehicle__informationHeader {
+    position: absolute;
+    left: 3.94rem;
+    top: 2.13rem;
+    color: #878787;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationRectangle {
+    position: absolute;
+    left: 2.06rem;
+    top: -0.38rem;
+    width: 4.5rem;
+    height: 0.6875rem;
+    border-radius: 0.625rem;
+    background: #05E1FF;
+
+}
+
+.vehicle__infortaionName__empty {
+    position: absolute;
+    left: 1.37rem;
+    top: 6.25rem;
+    width: 3.75rem;
+    height: 1.5rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationName__nameInsert {
+    position: absolute;
+    width: 7rem;
+    height: 1.5rem;
+    top: 6.25rem;
+    left: 11.44rem;
+    color: #05E1FF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationPlate__empty {
+    position: absolute;
+    width: 3.75rem;
+    height: 1.5rem;
+    top: 9.81rem;
+    left: 1.37rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationPlate__plateInsert {
+    position: absolute;
+    width: 7rem;
+    height: 1.5rem;
+    top: 9.81rem;
+    left: 11.44rem;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationFee__empty {
+    position: absolute;
+    width: 3.75rem;
+    height: 1.5rem;
+    top: 13.38rem;
+    left: 1.37rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationFee_feeInsert {
+    position: absolute;
+    width: 7rem;
+    height: 1.5rem;
+    top: 13.38rem;
+    left: 11.44rem;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationTime__empty {
+    position: absolute;
+    top: 16.94rem;
+    left: 1.37rem;
+    width: 3.75rem;
+    height: 1.5rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.vehicle__informationTime__timeInsert {
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    top: 16.94rem;
+    left: 11.44rem;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.reason {
+    position: absolute;
+    left: 5.62rem;
+    top: 38.12rem;
+    width: 22.3125rem;
+    height: 7.8125rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #05E1FF;
+    background: rgba(0, 0, 0, 0.40);
+}
+
+.reason__header {
+    position: absolute;
+    width: 5.1875rem;
+    height: 1.5rem;
+    top: 0.57rem;
+    left: 6.56rem;
+    color: #EE4B4B;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.reason__image {
+    position: absolute;
+    left: 1.56rem;
+    top: 2.25rem;
+    width: 3.125rem;
+    height: 3.375rem;
+    background: url(./assets/imgs/Note.png);
+}
+
+.reason__text {
+    position: absolute;
+    left: 5.69rem;
+    top: 2.75rem;
+    width: 15.75rem;
+    height: 4.3125rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.image {
+    position: absolute;
+    left: 5.62rem;
+    top: 47rem;
+    width: 22.3125rem;
+    height: 3.5625rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #05E1FF;
+    background: rgba(0, 0, 0, 0.40);
+}
+
+.image__image {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    top: 0.56rem;
+    left: 1.88rem;
+    background: url(./assets/imgs/Image.png);
+}
+
+.image__text {
+    position: absolute;
+    top: 1.06rem;
+    left: 6.56rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.image__view {
+    position: absolute;
+    top: 0.69rem;
+    left: 13.94rem;
+    width: 7.5rem;
+    height: 2.1875rem;
+    border-radius: 2.1875rem;
+    border: 0.5px solid #05FF69;
+    background: #0D3C2B;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.retrieve {
+    position: absolute;
+    top: 56.75rem;
+    left: 5.62rem;
+    width: 22.3125rem;
+    height: 4.375rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #98F3FF;
+    background: #1A4B4F;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.list {
+    position: absolute;
+    top: 16.06rem;
+    left: 33.38rem;
+    width: 79.62rem;
+    height: 45.06rem;
+    background: #05FF69;
+}
+
+.list__item {
+    width: 18.3125rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
+
+.list__itemImage {
+    position: absolute;
+    left: 2.12rem;
+    top: -1.06rem;
+    width: 17.1875rem;
+    height: 13.4375rem;
+    background: url(./assets/imgs/car.png);
+}
+
+.list__itemName {
+    position: absolute;
+    left: 1.37rem;
+    top: 13.56rem;
+    width: 7rem;
+    height: 1.5rem;
+    color: #05E1FF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.list__itemPlate {
+    position: absolute;
+    left: 1.37rem;
+    top: 15.25rem;
+    width: 7rem;
+    height: 1.125rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.list__itemFee {
+    position: absolute;
+    left: 13.94rem;
+    top: 15.19rem;
+    width: 5rem;
+    float: right;
+    height: 1.5rem;
+    color: #94F07D;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.list__itemInfo {
+    position: absolute;
+    left: 1.19rem;
+    top: 17.88rem;
+    width: 7.5rem;
+    height: 2.1875rem;
+    border-radius: 2.1875rem;
+    border: 0.5px solid #05E1FF;
+    background: #0D363C;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* dsadssadsadsaaaaaaaaa */
+
+.list__item1 {
+    position: absolute;
+    left: 20.3125rem;
+    top: 0;
+    width: 18.3125rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
+.list__item2 {
+    position: absolute;
+    left: 40.625rem;
+    top: 0;
+    width: 18.3125rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
+.list__item3 {
+    position: absolute;
+    left: 60.75rem;
+    top: 0;
+    width: 18.3125rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
