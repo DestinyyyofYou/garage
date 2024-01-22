@@ -53,10 +53,14 @@ body {
     width: 22.3125rem;
     height: 20.8125rem;
     border-radius: 0.3125rem;
-    border: linear-gradient(rgba(5, 225, 255, 1), rgba(5, 225, 255, 0));
-    border: 1px solid #05E1FF;
+    border-width: 0.052vw;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgba(5, 225, 255, 1), rgba(5, 225, 255, 0))0 100%;
     background: rgba(0, 0, 0, 0.40);
+}
 
+.vehicle__informationRectangleTop {
+    border-top: 0.052vw solid rgba(5, 225, 255, 1);
 }
 
 .vehicle__informationHeader {
@@ -192,8 +196,14 @@ body {
     width: 22.3125rem;
     height: 7.8125rem;
     border-radius: 0.3125rem;
-    border: 1px solid #05E1FF;
+    border-width: 0.052vw;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgba(5, 225, 255, 1), rgba(5, 225, 255, 0))0 100%;
     background: rgba(0, 0, 0, 0.40);
+}
+
+.reason_headerRectangle {
+    border-top: 0.052vw solid rgba(5, 225, 255, 1);
 }
 
 .reason__header {
@@ -239,8 +249,14 @@ body {
     width: 22.3125rem;
     height: 3.5625rem;
     border-radius: 0.3125rem;
-    border: 1px solid #05E1FF;
+    border-width: 0.052vw;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgba(5, 225, 255, 1), rgba(5, 225, 255, 0))0 100%;
     background: rgba(0, 0, 0, 0.40);
+}
+
+.image__imageRectangle {
+    border-top: 0.052vw solid rgba(5, 225, 255, 1);
 }
 
 .image__image {
@@ -270,7 +286,7 @@ body {
     width: 7.5rem;
     height: 2.1875rem;
     border-radius: 2.1875rem;
-    border: 0.5px solid #05FF69;
+    border: 0.026vw solid #05FF69;
     background: #0D3C2B;
     color: #FFF;
     font-family: Inter;
@@ -286,7 +302,7 @@ body {
     width: 22.3125rem;
     height: 4.375rem;
     border-radius: 0.3125rem;
-    border: 1px solid #98F3FF;
+    border: 0.052vw solid #98F3FF;
     background: #1A4B4F;
     color: #FFF;
     font-family: Inter;
@@ -302,7 +318,6 @@ body {
     left: 33.38rem;
     width: 79.62rem;
     height: 45.06rem;
-    background: #05FF69;
 }
 
 .list__item {
@@ -310,7 +325,7 @@ body {
     height: 21.5rem;
     flex-shrink: 0;
     border-radius: 0.3125rem;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
     margin-right: 2rem;
     margin-bottom: 2.06rem;
@@ -372,7 +387,7 @@ body {
     width: 7.5rem;
     height: 2.1875rem;
     border-radius: 2.1875rem;
-    border: 0.5px solid #05E1FF;
+    border: 0.026vw solid #05E1FF;
     background: #0D363C;
     color: #FFF;
     font-family: Inter;
@@ -381,7 +396,7 @@ body {
     cursor: pointer;
 }
 
-/* dsadssadsadsaaaaaaaaa */
+/* list item */
 
 .list__item1 {
     position: absolute;
@@ -391,11 +406,12 @@ body {
     height: 21.5rem;
     flex-shrink: 0;
     border-radius: 0.3125rem;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
     margin-right: 2rem;
     margin-bottom: 2.06rem;
 }
+
 .list__item2 {
     position: absolute;
     left: 40.625rem;
@@ -404,11 +420,12 @@ body {
     height: 21.5rem;
     flex-shrink: 0;
     border-radius: 0.3125rem;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
     margin-right: 2rem;
     margin-bottom: 2.06rem;
 }
+
 .list__item3 {
     position: absolute;
     left: 60.75rem;
@@ -417,7 +434,63 @@ body {
     height: 21.5rem;
     flex-shrink: 0;
     border-radius: 0.3125rem;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
+
+.list__item4 {
+    position: absolute;
+    width: 18.3125rem;
+    height: 21.5rem;
+    top: 23.1rem;
+    left: 0;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
+
+.list__item5 {
+    position: absolute;
+    left: 20.3125rem;
+    top: 23.1rem;
+    width: 18.3125rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
+
+.list__item6 {
+    position: absolute;
+    left: 40.625rem;
+    top: 23.1rem;
+    width: 18.3125rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    margin-right: 2rem;
+    margin-bottom: 2.06rem;
+}
+
+.list__item7 {
+    position: absolute;
+    left: 60.75rem;
+    top: 23.1rem;
+    width: 18.3125rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 0.052vw solid rgba(255, 255, 255, 0.20);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
     margin-right: 2rem;
     margin-bottom: 2.06rem;
